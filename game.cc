@@ -99,11 +99,12 @@ void Game::print(){
     std::cout << "Flags: " << flag_place << "/" << total_mines;
     std::cout << " | ";
     if(gameover){
-        std::cout << "Loss( Bro, you nedd to train";
+        std::cout << "Loss( Bro, you need to train";
     } else if(gamewon){
         std::cout << "Victory";
     } else{
         std::cout << "Play";
     }
     std::cout << std::endl;
+
 }
