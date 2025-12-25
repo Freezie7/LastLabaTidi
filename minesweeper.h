@@ -101,7 +101,6 @@ public:
 
     bool is_game_over() {return gameover;};
     bool is_game_won() {return gamewon;};
-    int get_total_mines();
 };
 
 #endif
